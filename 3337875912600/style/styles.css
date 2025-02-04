@@ -316,7 +316,7 @@
 #es-rc #es-rc-content .es-compare__text-main {
   font-size: 20px;
   font-weight: 700;
-  margin-block: 1rem;
+  margin-block: 16px;
 }
 
 #es-rc #es-rc-content .es-compare__text-disclaimer {
@@ -425,7 +425,7 @@
 @media screen and (min-width: 626px) and (max-width: 1199px) {
   #es-rc #es-rc-content .es-compare__desc {
     left: 7%;
-    font-size: 3rem;
+    font-size: 48px;
   }
 }
 
