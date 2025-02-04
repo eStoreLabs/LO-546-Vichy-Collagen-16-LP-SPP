@@ -94,7 +94,6 @@
 #es-rc #es-rc-content .es-kv__counter-count .es-kv__counter-count--minutes {
   width: 100px;
   height: 100px;
-  margin: 10px;
   background-repeat: no-repeat;
   background-position: center;
   background-size: 100%;
@@ -317,6 +316,7 @@
 #es-rc #es-rc-content .es-compare__text-main {
   font-size: 20px;
   font-weight: 700;
+  margin-block: 1rem;
 }
 
 #es-rc #es-rc-content .es-compare__text-disclaimer {
@@ -342,6 +342,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  gap: 10px;
 }
 
 #es-rc #es-rc-content .es-counter__counter-count .es-counter__counter-count--days,
@@ -423,10 +424,8 @@
 
 @media screen and (min-width: 626px) and (max-width: 1199px) {
   #es-rc #es-rc-content .es-compare__desc {
-    left: 10%;
-    color: #8d1b12;
-    font-size: 14px;
-    font-weight: 700;
+    left: 7%;
+    font-size: 3rem;
   }
 }
 
